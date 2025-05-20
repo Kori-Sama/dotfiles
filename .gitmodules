@@ -1,9 +1,9 @@
 [submodule "nvim"]
 	path = nvim
-  url = ./nvim
+  url = https://github.com/Kori-Sama/nvim-config.git
 [submodule "wezterm"]
 	path = wezterm
   url = https://github.com/Kori-Sama/wezterm-config.git
 [submodule "fish"]
 	path = fish
-	url = ./fish
+  url = https://github.com/Kori-Sama/fish-config.git
