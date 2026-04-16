@@ -1,0 +1,32 @@
+shell-integration = fish
+shell-integration-features = ssh-terminfo
+command = /opt/homebrew/bin/fish --login --interactive
+
+font-family = "JetBrainsMono Nerd Font"
+font-size = 16
+font-thicken = true
+
+theme = "Catppuccin Mocha"
+background-opacity = 0.85
+background-blur = true
+
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+
+cursor-style = block
+macos-titlebar-style = transparent
+macos-titlebar-proxy-icon = hidden
+window-save-state = always
+
+keybind = ctrl+`=toggle_quick_terminal
+keybind = global:ctrl+`=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-size = 25%
+quick-terminal-autohide = true
+
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+confirm-close-surface = false
+
+scrollback-limit = 25000000
