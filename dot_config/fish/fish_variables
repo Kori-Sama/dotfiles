@@ -26,7 +26,7 @@ SETUVAR fish_color_selection:\x2d\x2dbackground\x3dFFCC66
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
-SETUVAR fish_greeting:\x1b\x5b3m\x1b\x5b35m\u3053\u308a\u69d8\u3001\u304a\u304b\u3048\u308a\uff5e\x20\u4eca\u65e5\u306f\x2002\x3a27\x3a26\x1b\x28B\x1b\x5bm
+SETUVAR fish_greeting:\x1b\x5b3m\x1b\x5b35m\u3053\u308a\u69d8\u3001\u304a\u304b\u3048\u308a\uff5e\x20\u4eca\u65e5\u306f\x2002\x3a57\x3a05\x1b\x28B\x1b\x5bm
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_background:\x1d
 SETUVAR fish_pager_color_completion:normal
