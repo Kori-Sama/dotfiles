@@ -1,4 +1,4 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
-SETUVAR fish_greeting:\x1b\x5b35\x3b3m\u3053\u308a\u69d8\u3001\u304a\u304b\u3048\u308a\uff5e\x20\u4eca\u65e5\u306f\x2003\x3a27\x3a39\x1b\x5bm
+SETUVAR fish_greeting:\x1b\x5b35\x3b3m\u3053\u308a\u69d8\u3001\u304a\u304b\u3048\u308a\uff5e\x20\u4eca\u65e5\u306f\x2003\x3a32\x3a30\x1b\x5bm
