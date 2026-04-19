@@ -7,15 +7,15 @@ font-size = 16
 font-thicken = true
 
 theme = "Catppuccin Mocha"
-background-opacity = 0.85
-background-blur = true
+background-opacity = 0.8
+background-blur = false
 
 window-padding-x = 10
 window-padding-y = 10
 window-padding-balance = true
 
 cursor-style = block
-macos-titlebar-style = transparent
+macos-titlebar-style = tabs
 macos-titlebar-proxy-icon = hidden
 window-save-state = always
 
