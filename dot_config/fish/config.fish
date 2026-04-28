@@ -4,6 +4,7 @@ source ~/.config/fish/conf.d/aliases.fish
 source ~/.config/fish/conf.d/utils.fish
 source ~/.config/fish/conf.d/abbrs.fish
 
+
 set -U fish_greeting (set_color --italics magenta)"こり様、おかえり～ 今日は "(date +"%H:%M:%S")(set_color normal)
 
 # starship
