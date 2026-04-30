@@ -1,11 +1,6 @@
-source ~/.config/fish/conf.d/variables.fish
-source ~/.config/fish/conf.d/paths.fish
-source ~/.config/fish/conf.d/aliases.fish
-source ~/.config/fish/conf.d/utils.fish
-source ~/.config/fish/conf.d/abbrs.fish
-
-
-set -U fish_greeting (set_color --italics magenta)"こり様、おかえり～ 今日は "(date +"%H:%M:%S")(set_color normal)
+if status is-interactive
+  set -g fish_greeting (set_color --italics magenta)"こり様、おかえり～ 今日は "(date +"%H:%M:%S")(set_color normal)
+end
 
 # starship
 starship init fish | source

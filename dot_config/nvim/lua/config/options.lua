@@ -9,8 +9,6 @@ local opt = vim.opt
 
 opt.number = true
 opt.title = true
-opt.autoindent = true
-opt.smartindent = true
 opt.expandtab = true
 opt.shiftwidth = 2
 opt.tabstop = 2
@@ -23,7 +21,6 @@ opt.inccommand = "split"
 opt.scrolloff = 10
 opt.breakindent = true
 opt.wrap = false
-opt.backspace = "indent,eol,start"
 opt.wildignore:append({ "*/node_modules/*" })
 
 opt.clipboard = "unnamedplus"
@@ -33,4 +30,3 @@ opt.termguicolors = true
 opt.winblend = 0
 opt.wildoptions = "pum"
 opt.pumblend = 5
-opt.background = "dark"
