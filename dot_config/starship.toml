@@ -1,5 +1,6 @@
 format = """
 $username\
+$hostname\
 $directory\
 $git_branch\
 $git_status\
@@ -24,11 +25,16 @@ palette = "nord"
 
 [username]
 show_always = true
-format = '[$userで]($style) '
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+style = 'bold fg:yellow'
+format = '[@$hostnameで]($style)'
 
 [directory]
 style = 'bold fg:dark_blue'
-format = '[$path ]($style)'
+format = '[ $path ]($style)'
 truncation_length = 3
 truncation_symbol = '…/'
 truncate_to_repo = false
