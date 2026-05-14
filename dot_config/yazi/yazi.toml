@@ -1,0 +1,9 @@
+[opener]
+image = [
+    { run = 'xdg-open "$1"', desc = "系统默认程序", for = "linux" },
+]
+
+[open]
+rules = [
+    { mime = "image/*", use = "image" },
+]
